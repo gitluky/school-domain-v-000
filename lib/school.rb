@@ -10,7 +10,7 @@ class School
     if !roster.keys.include?(grade)
       roster[grade] = []
     end
-    roster[grade] << student  
+    roster[grade] << student
   end
 
   def grade(grade_number)
@@ -22,5 +22,5 @@ class School
       students.sort
     end
   end
-  
+
 end
